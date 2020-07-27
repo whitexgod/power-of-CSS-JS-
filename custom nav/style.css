@@ -76,7 +76,7 @@ nav{
     transition: transform 0.5s ease-in;
   }
   .nav-links li{
-    opacity: 0.25;
+    opacity: 0;
   }
   .burger {
     display: block;
@@ -87,7 +87,7 @@ nav{
   transform: translateX(0%);
 }
 
-@keyframes navLinkFade
+@keyframes change
 {
   from{
     opacity: 0;
