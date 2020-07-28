@@ -98,7 +98,17 @@ nav{
     transform: translateX(0px);
   }
 }
-
+@keyframes change2
+{
+  from{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  to{
+    opacity: 0;
+    transform: translateX(50px);
+  }
+}
 .toggle .line1{
   transform: rotate(-45deg) translate(-5px,6px);
 }
